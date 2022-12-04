@@ -1,0 +1,31 @@
+.cart-banner {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 90px;
+}
+#dCartWrapper {
+    width: 1195px;
+    margin: auto;
+    display: block;
+}
+.cart-container .product-card-wrapper {
+    width: 75%;
+    float: left;
+    padding-right: 15px;
+}
+.cart-container .product-card-wrapper .cart-header {
+    margin: 12px 0 25px;
+}
+
+/* #dCartWrapper .main-header.cartFooter{
+    width: 100px;
+} */
+
+html #dCartWrapper{
+    overflow: hidden;
+    /* display: none; */
+}
+
+#dCartWrapper .cart-container{
+    display: none;
+}

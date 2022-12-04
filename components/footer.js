@@ -1,7 +1,6 @@
 function footer() {
     return `    <div id="footer">
     <div>
-      <img src="./images/footer_top_img.JPG">
     </div>
     <div>
       <div id="sub_footer">
@@ -39,14 +38,11 @@ function footer() {
         </div>
         <div>
           <h4>Follow us</h4>
-          <p>Facebook</p>
-          <p>Instagram</p>
-          <p>Twitter</p>
-          <p>Pinterest</p>
+          <a href="https://www.facebook.com/AJIOlife" target="_blank"><p>Facebook</p></a>
+          <a href="https://www.instagram.com/AJIOlife/" target="_blank"><p>Instagram</p></a>
+          <a href="https://twitter.com/AJIOLife" target="_blank"><p>Twitter</p></a>
+          <a href="https://www.pinterest.com/ajiolife/" target="_blank"><p>Pinterest</p></a>
         </div>
-      </div>
-      <div>
-        <img src="./images/footer_bottom_img.JPG">
       </div>
     </div>
   </div>`;

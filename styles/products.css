@@ -1,0 +1,293 @@
+
+#container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* sidebar started */
+
+#sidebar{
+    margin-top: -20px;
+    width:15%;
+    padding: 50px;
+    font-family: 'Anek Devanagari', sans-serif;
+
+}
+#category{
+    font-size: 15px;
+}
+a{
+    color: black;
+}
+h6{
+    color: darkgray;
+    margin-left: -20px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#icon>i{
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#icon>p{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+}
+#arrow{
+    display: flex;
+    float:right;
+  align-items: flex-end;
+  justify-items: end;
+  margin-top: -1px;
+}
+.more{
+    color: rgb(180, 121, 80);
+  
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: lighter; */
+    font-size: 5px;
+    margin-left: 25px;
+    margin-top: -5px;
+    
+}
+#sidebar input{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+p>i{
+    margin-right: 10px;
+    
+}
+.men{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 13px;
+
+}
+#box{
+    background-color:rgb(241, 241, 250) ;
+    font-family: 'Heebo', sans-serif;
+    color:cornflowerblue;
+    padding: 1px;
+    padding-top: 1px;
+    text-align: center;
+}
+#input{
+    margin-top: 30px;
+}
+
+#input>p{
+    margin-top: -18px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 13px;
+}
+#sidebar>div>div>p{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+
+}
+
+.cat{
+    color:darkgrey;
+    /* font-family: 'Bitter', serif; */
+    font-family: 'Crimson Text', serif;
+}
+/* sidebar over */
+
+/* titlebar started */
+#subcontainer{
+    width:78%;
+    margin-top: 30px;
+    margin-left: -30px;
+}
+#title_bar{
+    width:100%;
+}
+#title_bar>div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   
+     background-color: rgb(241, 241, 250); 
+     margin-top: -5px;
+     padding-right: 50px;
+     margin-bottom: -2px;
+     font-weight: bold;
+     padding-left: 10px;
+   
+}
+#title_bar>div>p{
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 13px;
+
+}
+#title_bar>div>div{
+    display: flex;
+}
+#title_bar>div>div>p{
+
+    font-family: 'Anek Devanagari', sans-serif;
+    color: darkgray;
+    font-size: 15px;
+}
+select{
+    height: 25px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+#title_bar>p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bitter', serif;
+
+}
+#hr{
+    margin-top: -12px;
+}
+/* titlebar overr */
+
+/* products part started */
+#products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+#products>div{
+    text-align: center;
+    height:520px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#products>div>img{
+    width:100%;
+    height:75%;
+}
+#products>div>div>*{
+    margin-top: -1px;
+   
+}
+#products>div>div>p{
+    margin-top: -13px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+    
+}
+#products>div>div>h4{
+    margin-top: -13px;
+}
+#products>div>div>button{
+    margin-top: -40px;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 15px;
+    width:90%;
+    height:30px;
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    
+}
+#products>div>div>button>i{
+ color: aliceblue;
+    
+}
+
+@media all and (max-width: 1100px) and (min-width:601px) {
+   
+    #products{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:20px;
+    }
+    #products>div{
+        text-align: center;
+        height: 400px;
+        cursor: pointer;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    #products>div>div>p{
+        margin-top: -13px;
+        font-family: 'Anek Devanagari', sans-serif;
+        font-size: 13px;
+        
+    }
+    #products>div>img{
+        width:100%;
+        height:70%;
+    }
+    #products>div>div>h4{
+        margin-top: -13px;
+        font-size: 13px;
+    }
+    #products>div>div>button{
+        margin-top: -40px;
+        font-family: 'Anek Devanagari', sans-serif;
+        font-size: 13px;
+        width:90%;
+        height:20px;
+        background-color: darkgoldenrod;
+        color: aliceblue;
+        border: none;
+        cursor: pointer;
+        
+    }
+    
+   }
+
+   @media all and (max-width: 601px) and (min-width:0px) {
+    #sidebar{
+        display: none;
+    }
+    #subcontainer{
+        width:90%;
+        margin-top: 30px;
+       margin: auto;
+    }
+    #products{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+    }
+    #products>div{
+        text-align: center;
+        height: 300px;
+        cursor: pointer;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    #products>div>img{
+        width:100%;
+        height:70%;
+    }
+    #products>div>div>p{
+        margin-top: -13px;
+        font-family: 'Anek Devanagari', sans-serif;
+        font-size: 11px;
+        
+    }
+  
+    #products>div>div>h4{
+        margin-top: -7px;
+        font-size: 13px;
+        margin-bottom: -0.5px;
+    }
+    #products>div>div>button{
+        margin-top: -50px;
+        font-family: 'Anek Devanagari', sans-serif;
+        font-size: 11px;
+        width:90%;
+        height:20px;
+        background-color: darkgoldenrod;
+        color: aliceblue;
+        border: none;
+        cursor: pointer;
+        
+    }
+    #products>div>div>h5{
+        font-size: 11px;
+    }
+   }

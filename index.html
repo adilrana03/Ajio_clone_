@@ -10,8 +10,9 @@
     <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico">  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" id="appCss" type="text/css" media="all" href="https://assets.ajio.com/static/assets/desktop.a6ffbcddf0ecb4e356b0.a6ffbcddf0ecb4e356b0.css">
+    
     <script src="https://kit.fontawesome.com/4f7a4dbcbf.js" crossorigin="anonymous"></script>
 
 
@@ -345,14 +346,22 @@
         </div>
 
     </div>
+    <div id="appContainer">
+        <div id="sign-in"></div>
+    </div>
     <div id="footer_division">
 
     </div>
 
 </body>
+<link rel="stylesheet" href="./styles/navbar.css">
+<link rel="stylesheet" href="./styles/footer.css">
+
+</html>
+
 <script>
     function goToProductPage() {
-        window.location.href="productsPage.html"
+        window.location.href="menProducts.html"
     }
 </script>
 <script type="module">
@@ -362,8 +371,6 @@
     import footer from "./components/footer.js";
     let footer_division = document.getElementById("footer_division");
     footer_division.innerHTML = footer();
-    var user=document.getElementById("user-info");
-    user.innerHTML=localStorage.getItem("user") || "SignUp / Login";
 
 
 var image = 0;
@@ -492,8 +499,6 @@ document.querySelector(".material-icons-outlined").addEventListener("click",sear
 
 
 </script>
-<link rel="stylesheet" href="./styles/navbar.css">
-<link rel="stylesheet" href="./styles/footer.css">
-<script src="./scripts/navbar.js"></script>
 
-</html>
+<script src="./scripts/login-inject.js" type="module" defer></script>
+<script src="./scripts/navbar.js" defer></script>

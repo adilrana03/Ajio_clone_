@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/products.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   
+    <script src="https://kit.fontawesome.com/bb1c0a8daf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     
+   <!-- product part started-->
+    <div id="container">
+
+        <!--sidebar started-->
+        <div id="sidebar">
+
+            <h6>Home  /  D2c Fachion</h6>
+            <div id="first_box">
+                
+                   <h3> Refine By <i class="fa-solid fa-angle-up" id="arrow"></i></h3> 
+                  
+            
+                
+                <div >
+                    <p><i class="fa-solid fa-minus"></i>Gender</p>
+            
+                <div>
+                    <p class="men"> <input type="checkbox">   Women </p>
+                   
+                    
+                   
+                </div>
+                <hr>
+                <div>
+                    <p id="category"><i class="fa-solid fa-minus"></i>Category</p>
+                </div>
+                <div id="input">
+                    <p>
+                        <input type="checkbox" id="sarees" oninput="sarees()"> Sarees</p>
+                    <p> <input type="checkbox" id="tops" oninput="tops()"> Tops & Tunics</p>
+                    <p> <input type="checkbox" id="dresses" oninput="dresses()"> Dresses</p>
+                    <p> <input type="checkbox" id="winterwears" oninput="winterwears()"> Winterwears</p>
+                    
+                </div>
+                <p class="more">MORE</p>
+                <hr>
+             <div id="icon">
+                <p> <i class="fa-regular fa-plus"></i>  Price</p>
+               
+                <hr>
+                <p><i class="fa-regular fa-plus"></i>  Brands</p>
+                
+                <hr>
+                <p> <i class="fa-regular fa-plus"></i>  Occasion</p>
+               
+                <hr>
+                <p>  <i class="fa-regular fa-plus"></i>  Discount</p>
+              
+                <hr>
+                <p> <i class="fa-regular fa-plus"></i>  Colors</p>
+               
+                <hr>
+                <p> <i class="fa-regular fa-plus"></i>  Size & Fit</p>
+               
+
+             </div>
+               
+              
+            
+              <hr>
+              </div>
+
+            </div>
+            <div id="second_box">
+                <h3>More Filters <i class="fa-solid fa-angle-up" id="arrow"></i></h3>
+                <p class="cat">Please select upto 3 categories to view more filters</p>
+                <div id="box">
+                    <p>SELECT CATEGORY</p>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--sidebar over-->
+      
+        <div id="subcontainer">
+              <!--titlebar started-->
+              
+            <div id="title_bar">
+                
+                <p>Clothing</p>
+                 <hr id="hr">
+                 <div >
+                   <p id="span">100 Items Found</p>
+                   <div >
+                    <p>SORT BY</p><select name="" id="sort" onchange="sort()">
+                        <option value="All">Relevance</option>
+                        <option value="htl">Price(highest first)</option>
+                        <option value="lth">Price(lowest first)</option>
+                    </select>
+                   </div>
+                  
+                   
+                   
+
+                   
+
+                </div>
+                 <hr id="hr1">
+
+
+            </div>
+            <div id="products">
+
+            </div>
+
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
+<script src="./scripts/womensProducts.js"></script>

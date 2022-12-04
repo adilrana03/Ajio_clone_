@@ -1,0 +1,332 @@
+@import url('http://fonts.cdnfonts.com/css/lora');
+*{
+    margin: 0px;
+}
+#navbar2{
+     position: relative;
+  }
+   header {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      border-bottom: 1px solid lightgray;
+      padding: 10px;
+      /* width: 100%; */
+      gap: 4%;
+      padding-left: 10%;
+      position: fixed;
+      background-color: white;
+
+  }
+
+  #lower {
+      width: 70%;
+      display: flex;
+      justify-content: space-evenly;
+      /* border: 2px solid green !important; */
+  }
+
+  .bottom {
+      /* height: 35px; */
+      display: flex;
+      justify-content: center;
+      gap:10px;
+      /* border:1px solid green */
+      /* margin-left: 15px; */
+      /* align-items: flex-start; */
+
+  }
+
+  .bottom>img {
+      /* height: 35px; */
+      /* margin: 9px; */
+      width: 10%;
+
+  }
+
+  .bottom>p {
+      /* margin-top: 2px; */
+      padding-top: 8px;
+      color: rgb(221, 181, 109);
+      font-size: 13px;
+      
+  }
+
+  /* ------------------------------------------------------------------------------ */
+
+
+#paymentBody {
+/* border: 1px solid red; */
+width: 90%;
+margin: auto;
+display: flex;
+gap: 2%;
+padding-top: 10%;
+}
+#leftPayment {
+/* border: 1px solid green; */
+width: 75%;
+height: 950px;
+}
+
+#paymentOffer {
+width: 100%;
+/* height: 15%; */
+/* border: 1px solid red; */
+display: flex;
+margin-bottom: 30px;
+/* align-items: center; */
+}
+#paymentOffer1,
+#paymentoffer2 {
+padding: 10px 20px ;
+width: 50%;
+/* height: 90%; */
+border: 1px dashed grey;
+display: flex;
+align-items: center;
+}
+#payment1Img,
+#payment2Img {
+width: 20%;
+height: 50%;
+/* border: 1px solid blue; */
+text-align: center;
+/* margin-top: 9%; */
+}
+#payment1txt,
+#payment2txt {
+width: 80%;
+height: 100%;
+  font-size: 13px;
+  font-family: 'Source Sans Pro';
+/* border: 1px solid green; */
+}
+#payment1Img > img,
+#payment2Img > img {
+width: 50%;
+}
+#payment1txt > p,
+#payment2txt > p {
+font-weight: normal;
+/* font-size: 15px; */
+line-height: 140%;
+}
+#payment1txt > p > a,
+#payment2txt > p > a {
+text-decoration: none;
+}
+#loyalpoints {
+margin-top: 30px;
+border: 1px solid lightgray;
+width: 100%;
+height: 180px;
+margin-bottom: 25px;
+}
+#firstL,
+#secondL {
+height: 50%;
+width: 100%;
+display: flex;
+/* border: 1px solid green; */
+}
+.forcheckbox {
+width: 6%;
+/* border: 1px solid red; */
+height: 40%;
+margin-top: 2%;
+margin-left: 2%;
+text-align: center;
+}
+.forcheckbox > input {
+height: 70%;
+width: 31%;
+}
+.fortext > p {
+line-height: 200%;
+font-weight: 700;
+}
+#forColor,
+#forColor1 {
+color: grey;
+font-weight: normal;
+}
+#paymentOption {
+width: 100%;
+height: 500px;
+/* border: 1px solid orange; */
+display: flex;
+margin-top: 25px;
+}
+#paymantMethod {
+width: 27%;
+border: 1px solid lightgray;
+height: 40%;
+}
+#paymantMethod p{
+padding: 5px 5px ;
+background-color: #fafafa;
+ font-weight: 600;
+ font-size: 14px;
+}
+#cord > p {
+color: #c0af94;
+font-weight: 700;
+}
+#cord {
+background-color: white;
+border-bottom: 1px solid lightgray;
+/* border-left: none; */
+}
+#cardDetails {
+width: 75%;
+height: 90%;
+border: 1px solid lightgray;
+}
+#cardDetails > input,
+#cardDetails > label {
+display: block;
+}
+#forExp {
+display: flex;
+justify-content: space-between;
+width: 60%;
+height: 10%;
+/* border: 1px solid orangered; */
+}
+.forMonth {
+width: 30%;
+height: 75%;
+}
+.forMonth > option {
+padding: 10px;
+}
+#forcvv {
+height: 62%;
+width: 25%;
+}
+#cardDetails > p,
+#cardDetails > label,
+#cardDetails > input,
+#forexpCvv,
+#btnPayment,
+#forExp {
+margin-left: 3%;
+}
+#addCArd {
+font-size: 19px;
+font-weight: 700;
+}
+#cardDetails > label {
+font-weight: normal;
+font-size: 18px;
+margin-bottom: 2%;
+}
+#cardDetails > input {
+width: 60%;
+height: 6%;
+margin-bottom: 2%;
+}
+#forexpCvv {
+display: flex;
+justify-content: space-between;
+width: 60%;
+/* border: 1px solid red; */
+height: 6%;
+}
+#btnPayment {
+margin-top: 3%;
+padding: 10px 7px;
+border: none;
+width: 33%;
+background-color: #d5a249;
+color: white;
+font-size: 14px;
+font-weight: 600;
+}
+#rightPayment {
+/* border: 1px solid pink; */
+width: 25%;
+height: 300px;
+}
+#checkbox_s{
+padding-left: 20px;
+margin-top: 24px;
+
+}
+/* .orderSummary {
+display: flex;
+justify-content: space-between;
+width: 85%;
+margin: auto;
+} */
+/* #rightPayment > h3 {
+padding-left: 6%;
+} */
+/* #sumAll,
+#amtPayable {
+font-weight: 700;
+font-size: 18px;
+} */
+#payment_box {
+padding: 15px;
+
+width: 89%;
+background-color: rgb(250, 250, 250);
+font-family: 'lora';
+
+/* margin-left: 200px; */
+box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+#price > div {
+display: flex;
+justify-content: space-between;
+font-size: 14px;
+font-family: "SourceSansPro";
+}
+
+#payment_box > h4 {
+margin-top: 5px;
+margin-bottom: 10px;
+font-size: 16px;
+}
+/* #bagp {
+margin-right: 20px;
+} */
+
+#price > div > p,
+#price > div > h4 {
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+#pay_btn {
+cursor: pointer;
+padding: 15px 40px;
+width: 99%;
+border: transparent;
+color: white;
+font-weight: 600;
+background-color: rgb(221, 181, 109);
+}
+#pay_btn:hover {
+outline: 2px solid rgb(221, 181, 109);
+border: 2px solid rgb(255, 255, 255);
+}
+
+#one {
+background-color: rgb(254, 251, 228);
+color: rgb(20, 89, 97);
+text-align: right;
+padding: 10px;
+font-size: 12px;
+font-weight: 600;
+font-family: "SourceSansPro";
+}
+#bags{
+color:#d5a249;
+}
+#bagp1{
+font-weight: 600;
+}

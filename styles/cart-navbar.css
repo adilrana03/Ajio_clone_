@@ -1,0 +1,68 @@
+.cart-journey-list{
+    display: inline-block;
+    position: relative;
+    padding-right: 130px;
+}
+.active .icons{
+    background-color: #2c4152;
+    font-size: 18px;
+}
+.icons{
+    font-size: 24px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    line-height: 33px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #ededed;
+}
+.divider-separator{
+    width: 158px;
+    height: 2px;
+    background-color: #ededed;
+    position: absolute;
+    left: 34px;
+    top: 15px;
+}
+.second-divider{
+    left: 62px;
+    width: 168px;
+}
+.header-right{
+    width: 80%;
+    float: left;
+    /* display: inline-block; */
+}
+.cart-journey-indicator-wrapper.top-header {
+    padding-left: 15%;
+    margin-top: -20px;
+    text-align: left;
+    display: inline-block;
+    text-align: center;
+}
+.cart-journey-indicator{
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.current-journey-label{
+    color: #a8a8a8;
+}
+.current-journey-label.active{
+    color: #2c4152;
+}
+
+.cart-journey-list .outer-circle .pre-active .icons {
+    background-color: #fff;
+    border-color: #2c4152;
+    border-width: 2px;
+    border: 1px solid #2c4152;
+    color: #2c4152;
+    font-size: 18px;
+}
+
+.divider-separator.pre-active{
+    background-color: #2c4152;
+}

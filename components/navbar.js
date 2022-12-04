@@ -1,7 +1,7 @@
 function navbar() {
     return ` <div id="navbar">
     <div>
-        <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" id="navbar_ajio_logo">
+       <a href="./index.html"> <img src="https://assets.ajio.com/static/img/Ajio-Logo.svg" id="navbar_ajio_logo"></a>
     </div>
     <div class="one" id="men_link">
         <p>MEN</p>
@@ -26,8 +26,8 @@ function navbar() {
             <div>
                 <p>Customer Care</p>
             </div>
-            <div id="navbar_signin_btn">
-                <p><a id="user-info" href="../signup.html"></a></p>
+            <div id="navbar_signin_btn" >
+                <p class="login-modal">SignIn / Join</p>
             </div>
         </div>
         <div>
@@ -43,9 +43,10 @@ function navbar() {
              <i class="fa-regular fa-heart"></i>            
              </div>
             <div id="cart_icon">
-                <span class="material-icons-outlined">
+                <a href="./cart.html"><span class="material-icons-outlined">
                     shopping_bag
                 </span>
+                </a>
             </div>
         </div>
     </div>
@@ -56,28 +57,28 @@ function navbar() {
         <p>Top Searches</p>
     </div>
     <div>
-        <a href="productsPage.html"><p>Shoes</p></a>
+        <a href="shoes.html"><p>Shoes</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Jackets</p></a>
+        <a href="womensProducts.html"><p>Jackets</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Jeans</p></a>
+        <a href="womensProducts.html"><p>Jeans</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Joggers</p></a>
+        <a href="menProducts.html"><p>Joggers</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Kurti</p></a>
+        <a href="menProducts.html"><p>Kurti</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Boots</p></a>
+        <a href="womensProducts.html"><p>Boots</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Shirts</p></a>
+        <a href="menProducts.html"><p>Shirts</p></a>
     </div>
     <div>
-        <a href="productsPage.html"><p>Top</p></a>
+        <a href="womensProducts.html"><p>Top</p></a>
     </div>
 
 </div>
@@ -92,64 +93,64 @@ function navbar() {
    </div>
    <div>
        <div>
-           <h4><a href="productsPage.html">CLOTHING</a></h4>
-           <h4><a href="productsPage.html">FOOTWEAR & ACCESSORIES</a></h4>
-           <h4><a href="productsPage.html">ALL THATS NEW</a></h4>
-           <p><a href="productsPage.html">Clothing</a></p>
-           <p><a href="productsPage.html">Footwear</a></p>
-           <p><a href="productsPage.html">Accessories</a></p>
-           <h4><a href="productsPage.html">INTERNATIONAL BRANDS</a></h4>
-           <h4><a href="productsPage.html">WINTERWEAR</a></h4>
-           <h4><a href="productsPage.html">NIGHT & LOUNGEWEAR</a></h4>
-           <h4><a href="productsPage.html">GROOMING</a></h4>
-           <h4><a href="productsPage.html">ETHNIC & FESTIVE</a></h4>
-           <p><a href="productsPage.html">Kurtas And Shirts</a></p>
-           <p><a href="productsPage.html">Nehru Jackets</a></p>
+           <h4><a href="menProducts.html">CLOTHING</a></h4>
+           <h4><a href="womensProducts.html">FOOTWEAR & ACCESSORIES</a></h4>
+           <h4><a href="menProducts.html">ALL THATS NEW</a></h4>
+           <p><a href="womensProducts.html">Clothing</a></p>
+           <p><a href="menProducts.html">Footwear</a></p>
+           <p><a href="womensProducts.html">Accessories</a></p>
+           <h4><a href="menProducts.html">INTERNATIONAL BRANDS</a></h4>
+           <h4><a href="womensProducts.html">WINTERWEAR</a></h4>
+           <h4><a href="menProducts.html">NIGHT & LOUNGEWEAR</a></h4>
+           <h4><a href="womensProducts.html">GROOMING</a></h4>
+           <h4><a href="menProducts.html">ETHNIC & FESTIVE</a></h4>
+           <p><a href="womensProducts.html">Kurtas And Shirts</a></p>
+           <p><a href="menProducts.html">Nehru Jackets</a></p>
        </div>
        <div>
-            <h4><a href="productsPage.html">WESTERN WEAR</a></h4>
-            <p><a href="productsPage.html">Jackets & Coats</a></p>
-            <p><a href="productsPage.html">Jeans</a></p>
-            <p><a href="productsPage.html">Shirts</a></p>
-            <p><a href="productsPage.html">Shorts & 3/4ths</a></p>
-            <p><a href="productsPage.html">Sweatshirts & Hoodies</a></p>
-            <p><a href="productsPage.html">Track Pants</a></p>
-            <p><a href="productsPage.html">Trousers & Pants</a></p>
-            <p><a href="productsPage.html">T-Shirts</a></p>
-            <h4><a href="productsPage.html">FOOTWEAR</a></h4>
-            <p><a href="productsPage.html">Casual Shoes</a></p>
-            <p><a href="productsPage.html">Flip-Flops & Slippers</a></p>
-            <p><a href="productsPage.html">Formal Shoes</a></p>
-            <p><a href="productsPage.html">Sandals</a></p>
-            <p><a href="productsPage.html">Sneakers</a></p>
-            <p><a href="productsPage.html">Sports Shoes</a></p>
+            <h4><a href="womensProducts.html">WESTERN WEAR</a></h4>
+            <p><a href="menProducts.html">Jackets & Coats</a></p>
+            <p><a href="womensProducts.html">Jeans</a></p>
+            <p><a href="menProducts.html">Shirts</a></p>
+            <p><a href="womensProducts.html">Shorts & 3/4ths</a></p>
+            <p><a href="menProducts.html">Sweatshirts & Hoodies</a></p>
+            <p><a href="womensProducts.html">Track Pants</a></p>
+            <p><a href="menProducts.html">Trousers & Pants</a></p>
+            <p><a href="womensProducts.html">T-Shirts</a></p>
+            <h4><a href="menProducts.html">FOOTWEAR</a></h4>
+            <p><a href="shoes.html">Casual Shoes</a></p>
+            <p><a href="menProducts.html">Flip-Flops & Slippers</a></p>
+            <p><a href="shoes.html">Formal Shoes</a></p>
+            <p><a href="menProducts.html">Sandals</a></p>
+            <p><a href="womensProducts.html">Sneakers</a></p>
+            <p><a href="shoes.html">Sports Shoes</a></p>
        </div>
        <div>
-            <h4><a href="productsPage.html">ACCESSORIES</a></h4>
-            <p><a href="productsPage.html">Backpacks</a></p>
-            <p><a href="productsPage.html">Bags & Wallets</a></p>
-            <p><a href="productsPage.html">Belts</a></p>
-            <p><a href="productsPage.html">Fashion Accessories</a></p>
-            <p><a href="productsPage.html">Socks</a></p>
-            <p><a href="productsPage.html">Sunglasses & Frames</a></p>
-            <p><a href="productsPage.html">Wallets</a></p>
-            <p><a href="productsPage.html">Watches</a></p>
-            <h4><a href="productsPage.html">PRECIOUS JEWELLERY</a></h4>
-            <p><a href="productsPage.html">Gold And Silver Coins</a></p>
-            <p><a href="productsPage.html">Gold And Diamonds Jewellery</a></p>
-            <p><a href="productsPage.html">Silver Jewellery</a></p>
-            <h4><a href="productsPage.html">INNERWEAR</a></h4>
-            <p><a href="productsPage.html">Trunks & Boxers</a></p>
-            <p><a href="productsPage.html">Vests</a></p>
+            <h4><a href="womensProducts.html">ACCESSORIES</a></h4>
+            <p><a href="menProducts.html">Backpacks</a></p>
+            <p><a href="womensProducts.html">Bags & Wallets</a></p>
+            <p><a href="menProducts.html">Belts</a></p>
+            <p><a href="womensProducts.html">Fashion Accessories</a></p>
+            <p><a href="menProducts.html">Socks</a></p>
+            <p><a href="womensProducts.html">Sunglasses & Frames</a></p>
+            <p><a href="menProducts.html">Wallets</a></p>
+            <p><a href="womensProducts.html">Watches</a></p>
+            <h4><a href="menProducts.html">PRECIOUS JEWELLERY</a></h4>
+            <p><a href="womensProducts.html">Gold And Silver Coins</a></p>
+            <p><a href="menProducts.html">Gold And Diamonds Jewellery</a></p>
+            <p><a href="womensProducts.html">Silver Jewellery</a></p>
+            <h4><a href="menProducts.html">INNERWEAR</a></h4>
+            <p><a href="womensProducts.html">Trunks & Boxers</a></p>
+            <p><a href="menProducts.html">Vests</a></p>
        </div>
        <div>
-            <h4><a href="productsPage.html">FEATURED</a></h4>
-            <p><a href="productsPage.html">Bags Under 1499</a></p>
-            <p><a href="productsPage.html">Footwear Under 1499</a></p>
-            <p><a href="productsPage.html">Jeans Under 1199</a></p>
-            <p><a href="productsPage.html">Shorts & 3/4ths Under 699</a></p>
-            <h4><a href="productsPage.html">#AJIORECOMMENDS</a></h4>
-            <p><a href="productsPage.html">Play Time</a></p>
+            <h4><a href="womensProducts.html">FEATURED</a></h4>
+            <p><a href="menProducts.html">Bags Under 1499</a></p>
+            <p><a href="womensProducts.html">Footwear Under 1499</a></p>
+            <p><a href="menProducts.html">Jeans Under 1199</a></p>
+            <p><a href="womensProducts.html">Shorts & 3/4ths Under 699</a></p>
+            <h4><a href="menProducts.html">#AJIORECOMMENDS</a></h4>
+            <p><a href="womensProducts.html">Play Time</a></p>
        </div>
    </div>
 </div>
@@ -166,7 +167,6 @@ function navbar() {
     <div>
         <div>
             <div>
-                <img src="./images/facebook_icon.png">
             </div>
             <div>
                 <h5>FACEBOOK</h5>
@@ -174,7 +174,6 @@ function navbar() {
         </div>
         <div id="googleOauth">
             <div>
-                <img src="./images/google_icon.png">
             </div>
             <div>
                 <h5>GOOGLE</h5>

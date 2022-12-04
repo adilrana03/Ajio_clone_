@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0;
     font-family: 'Zen Kaku Gothic New', sans-serif;
 }
@@ -227,7 +227,7 @@
 }
 #search_list > div {
     height:40px;
-    border-bottom: 1px solid #c2c2c2;
+    /* border-bottom: 1px solid #c2c2c2; */
     padding-top: 6px;
     box-sizing: border-box;
     padding-left: 8px;
@@ -284,11 +284,11 @@
     cursor: pointer;
 }
 #login_signup > div:nth-child(3) > div:nth-child(1) {
-   border:2px solid #3B59B3;
-   color: #3B59B3;
+    border:2px solid #3B59B3;
+    color: #3B59B3;
 }
 #login_signup > div:nth-child(3) > div:nth-child(2) {
-   border:2px solid #FB4B26;
+    border:2px solid #FB4B26;
    color:#FB4B26;
 }
 #login_signup > div:nth-child(3) > div > div:nth-child(1) {
@@ -299,6 +299,7 @@
     padding-left: 10px;
     padding-top: 6px;
 }
+    
 #login_signup > div:nth-child(3) > div > div > img {
     width: 30px;
 }
@@ -438,4 +439,7 @@ a{
     #subnavbar {
         display:none;
     }
+}
+.material-icons-outlined{
+    color: rgb(248, 248, 248);
 }
