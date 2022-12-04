@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajio.com | Shop Online the Latest Fashion in apparels brands in india</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="icon" href="https://assets.ajio.com/static/img/favicon.ico">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4f7a4dbcbf.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        #top {
+            height: 92px;
+        }
+
+        #main {
+            width: 100%;
+        }
+
+        img {
+            width: 100%;
+        }
+        #full{
+            width: 100%;
+            margin-bottom: -5px;
+        }
+
+        #half {
+            display: inline-block;
+            width: 49%;
+        }
+
+        #quarter {
+            display: flex;
+            width: 24%;
+        }
+
+        #third {
+            display: flex;
+            width: 100%;
+        }
+        #four{
+            display: flex;
+            width: 100%;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(4,1fr);
+        }
+
+        img:hover {
+            transform: scale(1.02);
+            transition: transform 1.2s;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+        }
+        #body {
+            cursor: pointer;
+        }
+
+        @media (max-width: 800px) {
+            #full{
+                width:80%
+            }
+            #half {
+                width: 90%;
+            }
+            #quarter {
+                width: 45%;
+            }
+            #third {
+                width: 27%;
+            }
+            #four{
+                width: 20%;
+            }
+            #main,#main-b,#main-c,#main-d,#main-e{
+                width: 80%;
+            }
+            #grid{
+            display: grid;
+            width: 80%;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(6,1fr);
+        }
+
+        }
+
+        /* @media (max-width: 1200px) {
+            #half {
+                width: 90%;
+            }
+            #quarter {
+                width: 45%;
+            }
+            #third {
+                width: 22%;
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="navbar_division">
+
+    </div>
+    <div id="body" onclick="goToProductPage()">
+        <div>
+            <div id="top">
+
+            </div>
+        </div>
+
+        <div>
+            <div id="main">            </div>
+                 <div id="main-b">      </div> 
+                <!-- <img
+                    src="https://assets.ajio.com/medias/sys_master/images/images/h65/h7f/45969427496990/16122021-D-unisex-topbanner-p1-bbs-5090.jpg"> -->
+                <!-- <img
+                    src="https://assets.ajio.com/medias/sys_master/images/images/ha7/h6e/45814283829278/10122021-D-unisex-topshopper-ipadpro.jpg"> -->
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/D-opt-1.gif">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-winterwear1-sectionheader.jpg">
+                </div>
+
+
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-winterwear1-sweatshirts&hoodies-startingat399b.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-winterwear1-sweathers&cardigans-min30.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-winterwear1-jacket&coats-startingat399b.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-winterwearwonders-sectionheader.jpg">
+                </div>
+
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-winterwearwonders-brands-3050.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-winterwearwonders-pocketfriendlybrands-startingat499.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-winterwearwonders-brands-min40.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-wowwinterstyles-sectionheader.jpg" alt="">
+                </div>
+
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-wowwinterstyles-brands-3050.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-wowwinterstyles-brands-startingat499.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-wowwinterstyles-brands-min40.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-sponsorbrands-sectionheader.jpg" alt="">
+                </div>
+
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-sponsorbrands-theindiangarage-min60.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-sponsorbrands-levis-flat50extra10.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-sponsorbrands-campus-upto60.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/the%20brand%20spotlight-header.jpg" alt="">
+                </div>
+                <!-- //////////  H E A D E R  3 -->
+                <div id="main-c"></div>
+                <!--  //////////////////// -->
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-ajioexclsuives-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-ajioexclsuives-produkt-startingat399[1].jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-ajioexclsuives-gas-min30.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-ajioexclsuives-leecooper-upto70.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-newbrandlaunch-sectionheader.jpg" alt="">
+                </div>
+
+                <div id="main-d"></div>
+
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-newbrandlaunch-beinghuman-min50.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/25112022-D-MHP-newbrand%20launch-lenskart.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-newbrandlaunch-fabindia-startingat499.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under399.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under399-tshirts.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under399-flipflops&slippers.jpg">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under699.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under699-shirts.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under699-sneakers&sportsshoes.jpg">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under999.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under999-jeans.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestdeals-under999-ethnicwear.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/BOB%20fixed%20header%20R1440x90%20copy%203.jpg" alt="">
+                </div>
+
+                <div id="grid">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-pepejeans-4070.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-jack&jones-4070.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-skechers-upto40.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-puma-4070.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-mufti-4070.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-makrs&spencer-upto7070.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-buckaroo-5080.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-tommyhilfiger-3050.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-louisphilippe0min40.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-gstar-3050.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-woodland-upto60.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-bestofbrands-ivoc-upto75.jpg" alt="">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/header-JIT.jpg" alt="">
+                </div>
+
+                <div id="four">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-JITstatic-p1-louisphilippe-min40.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-JITstatic-p2-brands-min40.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-JITstatic-p3-brands-min40.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-JITstatic-p4-brands-5070.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-exclusivebrands-sectionheader.jpg" alt="">
+                </div>
+
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-westernwear-tshirt-brands-startingat399.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-westernwear-shirt-brands-min50.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-westernwear-jeans-brands-startingat699.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-footwear&accessories-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-footwear&accessories-sports&casualshoes-brands-startingat1199.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-footwear&accessories-flripflops&sandals-startingat299.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-footwear&accessories-leathershoes&boots.jpg">
+                </div>
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-celebassociations-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-celebassociations-puma-min50.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-celebassociations-adidas-min50.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-celebassociations-fila-min50.jpg">
+                </div>
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-kidswear-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-kidswear-boysclothing-startingat129.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-kidswear-girlsclothing-startingat119.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-kidswear-kids-footwear-startingat139.jpg">
+                </div>
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-watches&accessories-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-watches&accessories-belts&wallets-brands-startingat999.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-watches&accessories-watch-brands-min30extra10.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-watches&accessories-backpacks&handbags-brands-upto70.jpg">
+                </div>
+                 <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-innerwear&loungewear-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-innerwear&loungewear-brands-startingat199.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-innerwear&loungewear-boxersbroefs&trunks-brands-startingat149.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-innerwear&loungewear-vests-brands-startingat999.jpg">
+                </div>
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-innerwear&loungewear-sectionheader.jpg" alt="">
+                </div>
+                <!-- --------- M A I N - E -->
+                <div id="main-e"></div>
+                <!-- ------------///// -->
+
+                <div id="grid">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-gant-upto50.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-snitch-upto50.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-bhpc-upto50.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-ucb-upto60.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-pepejeans-3060.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-proline-4060.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-fila-3060.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-redtape-min60.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-dennislingo-min60.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-ketch-min60.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-reebok-3060.jpg" alt="">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-topbrands-vanheusen-min40.jpg" alt="">
+                </div>
+
+
+
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-home-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-home-bedsheetsblanketscomforters-brands-upto80.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-home-walldecorlanterncandles-brands-min30.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-home-portico-upto50.jpg">
+                </div>
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-home-discoveronlinestores-sectionheader.jpg" alt="">
+                </div>
+                <div id="third">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-home-discoveronlinestores-ternds.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-home-discoveronlinestores-ajiogold.jpg">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-home-discoveronlinestores-up&comingbrands.jpg">
+                </div>
+                <div id="full">
+                    <img src="https://assets.ajio.com/cms/AJIO/WEB/08032022-D-unisex-ajiocares-strip.jpg" alt="">
+                </div>
+        </div>
+
+        <div>
+
+        </div>
+
+    </div>
+    <div id="footer_division">
+
+    </div>
+
+</body>
+<script>
+    function goToProductPage() {
+        window.location.href="productsPage.html"
+    }
+</script>
+<script type="module">
+    import {navbar,search} from "./components/navbar.js";
+    let navbar_division = document.getElementById("navbar_division");
+    navbar_division.innerHTML = navbar();
+    import footer from "./components/footer.js";
+    let footer_division = document.getElementById("footer_division");
+    footer_division.innerHTML = footer();
+    var user=document.getElementById("user-info");
+    user.innerHTML=localStorage.getItem("user") || "SignUp / Login";
+
+
+var image = 0;
+print(image);
+function print(image) {
+  var arr = [
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-topbannercarosuel-p3-branddays-campussutra-min50.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/25112022-D-MHP-wintercarnival-4070.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-topbannercarosuel-p2-categorydays-footwear-brands-3060.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-topbannercarousel-p1-stealoftheday-sportsshoes-brands-under2299.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-topbanner-midseasonsale-4080.jpg'></img>",
+  ];
+
+  let header = document.getElementById("main"); //image append in this div
+  header.innerHTML = arr[0];
+  setInterval(function () {
+    if (image == arr.length) {
+      image = 0;
+    }
+    header.innerHTML = arr[image];
+    image++;
+  }, 5000);
+}
+
+
+
+var image2 = 0;
+print2(image2);
+function print2(image2) {
+  var arr2 = [
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/D-Payupto5Bankoffer.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/1440x128%202.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/D-RelianceOne-Bankoffer.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/1440x128-mob%20500.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/HSBC-1440x128.jpg'></img>",
+  ];
+
+  let header2 = document.getElementById("main-b"); //image append in this div
+  header2.innerHTML = arr2[0];
+  setInterval(function () {
+    if (image2 == arr2.length) {
+      image2 = 0;
+    }
+    header2.innerHTML = arr2[image2];
+    image2++;
+  }, 5000);
+}
+
+
+var image3 = 0;
+print3(image3);
+function print3(image3) {
+  var arr3 = [
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-banner1-p1-winterwear-brands-upto80.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-banner1-p2-westernwear-brands-flat50.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-banner1-p3-premiumbrands-min40upto35.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/29112022-D-MHP-banner1-p5-westernwear-brands-3050.jpg'></img>",
+  ];
+
+  let header3 = document.getElementById("main-c"); //image append in this div
+  header3.innerHTML = arr3[0];
+  setInterval(function () {
+    if (image3 == arr3.length) {
+      image3 = 0;
+    }
+    header3.innerHTML = arr3[image3];
+    image3++;
+  }, 2000);
+}
+
+var image4 = 0;
+print4(image4);
+function print4(image4) {
+  var arr4 = [
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/Azorte-D-MHP.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/2022_GAP_AJIO_Cozy%20Club_Desktop_w1440px%20X%20h470px_Men.jpg'></img>",
+  ];
+
+  let header4 = document.getElementById("main-d"); //image append in this div
+  header4.innerHTML = arr4[0];
+  setInterval(function () {
+    if (image4 == arr4.length) {
+      image4 = 0;
+    }
+    header4.innerHTML = arr4[image4];
+    image4++;
+  }, 2000);
+}
+
+
+var image5 = 0;
+print5(image5);
+function print5(image5) {
+  var arr5 = [
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-iconicbrands-p2-ketch-min60.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-iconicbrands-p4-jack&jones-4060.jpg'></img>",
+    "<img src='https://assets.ajio.com/cms/AJIO/WEB/04112022-D-MHP-iconicbrands-p3-spykar-4060.jpg'></img>",
+  ];
+
+  let header5 = document.getElementById("main-e"); //image append in this div
+  header5.innerHTML = arr5[0];
+  setInterval(function () {
+    if (image5 == arr5.length) {
+      image5 = 0;
+    }
+    header5.innerHTML = arr5[image5];
+    image5++;
+  }, 2000);
+}
+
+
+// async function search1(){
+//     console.log("Search btn working");
+//     var input=document.getElementById("search_box").value.toLowerCase();
+//     let url="https://ajio-json.onrender.com/search/";
+//     let data=await fetch(url);
+//     data=await data.json();
+//     if(data[input]){
+//         window.location.href=data[input]
+//     }else{
+//         alert("product not found");
+//     }
+// }
+
+document.querySelector(".material-icons-outlined").addEventListener("click",search);
+
+
+</script>
+<link rel="stylesheet" href="./styles/navbar.css">
+<link rel="stylesheet" href="./styles/footer.css">
+<script src="./scripts/navbar.js"></script>
+
+</html>
