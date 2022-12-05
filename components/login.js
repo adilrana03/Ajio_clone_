@@ -62,12 +62,18 @@ function display_login_modal(){
         event.preventDefault()
         let email = document.querySelector('.username').value 
         let pass = document.querySelector('.password').value
-        let data = await getUser(email)
-        console.log(data)
-        if(!data.length){
-            createUser(email,pass)
+        var mailformat = /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+        if(email.match(mailformat)){
+
+            let data = await getUser(email)
+            console.log(data)
+            if(!data.length){
+                createUser(email,pass)
+            }else{
+                checkUser(data[0],pass)
+            }
         }else{
-            checkUser(data[0],pass)
+            alert('Invalid Email')
         }
     }
 
