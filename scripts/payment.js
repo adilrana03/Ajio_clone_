@@ -10,7 +10,25 @@ document.getElementById("btnPayment").addEventListener("click", () => {
         cardNum.length >= 6
     ) {
         // alert("hi");
-        window.location.href = "summaryPage.html";
+        var myHeaders = new Headers();
+        myHeaders.append("Content-Type", "application/json");
+
+        var raw = JSON.stringify({
+        "cart": []
+        });
+
+        var requestOptions = {
+        method: 'PATCH',
+        headers: myHeaders,
+        body: raw,
+        redirect: 'follow'
+        };
+        let sign = localStorage.getItem('signin')
+        fetch(`https://ajio-json.onrender.com/users/${sign}`, requestOptions)
+        .then(response => response.text())
+        .then(result => console.log(result))
+        .catch(error => console.log('error', error));
+                window.location.href = "summaryPage.html";
     }
 });
 document.getElementById("bagt").innerHTML = `Rs ${totalAmt.toFixed(2)}`;

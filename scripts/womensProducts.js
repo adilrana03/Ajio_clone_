@@ -1141,7 +1141,7 @@ data.map(function(elem){
     // window.location.href="getProduct.html";
 
   }
-  async function addToCart(){
+  async function addToCart(obj){
     let sign = localStorage.getItem('signin')
     if(sign){
       var myHeaders = new Headers();
