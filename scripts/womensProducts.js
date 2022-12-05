@@ -1121,7 +1121,9 @@ data.map(function(elem){
 
   let button=document.createElement("button");
   button.innerText="ADD TO BAG";
-  button.addEventListener("click", addToCart);
+  button.addEventListener("click", ()=>{
+    addToCart(elem)
+  });
  
   div1.append(n,d,p,button);
   div.append(img,div1);
