@@ -1228,3 +1228,5 @@ data.map(function(elem){
 
    }
    
+
+   document.querySelector(".material-icons-outlined").addEventListener("click",search);

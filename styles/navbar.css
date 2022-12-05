@@ -127,6 +127,7 @@ body{
 }
 #search-icon{
     color: rgb(59, 59, 59);
+    cursor: pointer;
 }
 #flying_container {
     height:500px;
