@@ -35,7 +35,7 @@ function navbar() {
                 <input type="text" placeholder="Search AJIO" id="search_box">
             </div>
             <div class="searchiconvisi">
-                <span class="material-icons-outlined">
+                <span class="material-icons-outlined" id="search-icon">
                     search
                 </span>
             </div>

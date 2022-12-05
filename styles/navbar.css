@@ -120,6 +120,13 @@ body{
     color: white;
     background-color: #333;
     padding: 5px;
+    text-align: center;
+}
+#navbar_info p{
+    min-width: 100px;
+}
+#search-icon{
+    color: rgb(59, 59, 59);
 }
 #flying_container {
     height:500px;
@@ -426,6 +433,7 @@ a{
     #subnavbar > div:nth-child(2) > div:nth-child(n+3):nth-child(-n+4) {
        display:none; 
     }
+    
 }
 
 @media (max-width: 700px) {
