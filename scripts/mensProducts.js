@@ -1140,7 +1140,7 @@ data.map(function(elem){
   let button=document.createElement("button");
   button.innerText="ADD TO BAG";
   button.addEventListener("click", function(){
-    addToCart()
+    addToCart(elem)
   });
  
   div1.append(n,d,p,button);
@@ -1153,18 +1153,44 @@ data.map(function(elem){
     
  }    
     
-     
-     
+ async function addToCart(obj){
+    let sign = localStorage.getItem('signin')
+    if(sign){
+      var myHeaders = new Headers();
+      myHeaders.append("Content-Type", "application/json");
 
+      var requestOptions = {
+        method: 'GET',
+        headers: myHeaders,
+        redirect: 'follow'
+      };
 
-// var cartArray=JSON.parse(localStorage.getItem("getProduct"))||[];
-  function addToCart(){
+      let data = await fetch(`https://ajio-json.onrender.com/users/${sign}`, requestOptions)
+      data = await data.json()
+      let filter1 = data.cart.filter((e)=>{
+        return e.id == obj.id
+      })
+      if(!filter1.length){
+        obj.qty = 1
+        data.cart.push(obj)
+        raw = JSON.stringify( {
+          "cart" : data.cart
+        })
+        var requestOptions = {
+          method: 'PATCH',
+          body : raw,
+          headers: myHeaders,
+          redirect: 'follow'
+        };
+        let data1 = await fetch(`https://ajio-json.onrender.com/users/${sign}`, requestOptions)
+        alert("Product Added To The Cart");
+      }else{
+        alert("Product Already Exists In Cart")
+      }
+    }
     // cartArray.push(elem);
     // localStorage.setItem("getProduct",JSON.stringify(cartArray));
-    alert("Product Added To The Cart");
   }
-
- 
       
    function sort(){
     let availableData=JSON.parse(localStorage.getItem("data"));
