@@ -29,8 +29,8 @@ We have used to add logical functionalities to the web pages like the on Click f
 # <span style="color:red"> Team members: </span>
 ## 1) Adil Rana
 ## 2) Sanket Sapate
-## 3) Prabhansu 
-## 4) Siddhi 
+## 3) Siddhi 
+## 4) Prabanshu
 <br/>
 
 
