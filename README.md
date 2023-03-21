@@ -6,7 +6,7 @@ It was during the final week which is depicted as the construct week. We have do
 
 # <span style="color:red"> About Website: </span>
 
- [AJIO](zoomcar-letsgo-boom.netlify.app) AJIO, a fashion and lifestyle brand, is Reliance Retail’s digital commerce initiative and is the ultimate fashion destination for styles that are handpicked, on trend and at prices that are the best you’ll find anywhere.
+ [AJIO](https://ajio-clone-masaiproject.netlify.app/), a fashion and lifestyle brand, is Reliance Retail’s digital commerce initiative and is the ultimate fashion destination for styles that are handpicked, on trend and at prices that are the best you’ll find anywhere.
 Celebrating fearlessness and uniqueness, Ajio is constantly looking to bring a fresh, current and accessible perspective to personal style.
 
 # <span style="color:red"> Tech Stack Used: </span>
